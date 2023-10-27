@@ -13,8 +13,15 @@
             </div>
         </div>
 
-        <div class="w-full py-3 flex justify-between items-center ">
+        <div class="w-full py-3 flex flex-col justify-between items-center ">
 
+            <div class="w-full h-[50px] shadow-lg rounded-md flex justify-between items-center px-2">
+
+                <h3>Dashboard</h3>
+                <div class="icon px-2 cursor-pointer py-1 rounded-md bg-gray-100">
+                    <i class='bx bx-chevron-down' ></i>
+                </div>
+            </div>
             <div class="w-full h-[50px] shadow-lg rounded-md flex justify-between items-center px-2">
 
                 <h3>Dashboard</h3>

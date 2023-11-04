@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { AiOutlineSearch } from "react-icons/ai"
+import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai"
 import { useMediaQuery } from 'react-responsive'
+import { IconButton } from '@chakra-ui/react'
 
 export default function Header() {
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 990px)' })
@@ -32,6 +33,12 @@ export default function Header() {
                         <AiOutlineSearch />
                     </div>
                 </>
+            }
+
+            {
+                isTabletOrMobile && <IconButton>
+                    <AiOutlineMenu />
+                </IconButton>
             }
 
         </div>
